@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 148242957}
   - component: {fileID: 148242956}
   m_Layer: 0
-  m_Name: NeighbourtalkTrigger
+  m_Name: IristalkTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1664,50 +1664,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &189657306
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 189657308}
-  - component: {fileID: 189657307}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &189657307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189657306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af93e5206e2286141b15d1b613a4ab53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadScene
---- !u!4 &189657308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189657306}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 909.8335, y: 440.637, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &239450481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,7 +1822,7 @@ GameObject:
   - component: {fileID: 263346693}
   - component: {fileID: 263346692}
   m_Layer: 5
-  m_Name: 'Look_Button '
+  m_Name: '00Look_Button '
   m_TagString: Night
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2548,7 +2504,7 @@ GameObject:
   - component: {fileID: 308576430}
   - component: {fileID: 308576429}
   m_Layer: 5
-  m_Name: Peek_Neighbour
+  m_Name: Peek_Iris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2593,7 +2549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71fc5321564715a4da12a0a758f901db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e467c6885e165e445b071b2b8b6614c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7516,12 +7472,12 @@ GameObject:
   - component: {fileID: 910113016}
   - component: {fileID: 910113015}
   m_Layer: 5
-  m_Name: START_FrontDoor
+  m_Name: FrontDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &910113014
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8668,7 +8624,7 @@ GameObject:
   - component: {fileID: 1052394798}
   - component: {fileID: 1052394797}
   m_Layer: 5
-  m_Name: END_Bedroom
+  m_Name: Bedroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9985,18 +9941,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 189657307}
-        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
-        m_MethodName: LoadSceneByName
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 02_Day2
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1133234498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10065,15 +10009,19 @@ GameObject:
   m_Component:
   - component: {fileID: 1146950679}
   - component: {fileID: 1146950678}
-  - component: {fileID: 1146950682}
-  - component: {fileID: 1146950681}
-  - component: {fileID: 1146950680}
   - component: {fileID: 1146950684}
   - component: {fileID: 1146950683}
-  - component: {fileID: 1146950685}
-  - component: {fileID: 1146950686}
+  - component: {fileID: 1146950692}
+  - component: {fileID: 1146950691}
+  - component: {fileID: 1146950690}
+  - component: {fileID: 1146950689}
   - component: {fileID: 1146950688}
   - component: {fileID: 1146950687}
+  - component: {fileID: 1146950686}
+  - component: {fileID: 1146950685}
+  - component: {fileID: 1146950695}
+  - component: {fileID: 1146950694}
+  - component: {fileID: 1146950693}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -10115,63 +10063,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1598670584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1146950680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146950677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 3
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &1146950681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146950677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 2
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &1146950682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146950677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 1
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!114 &1146950683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10225,7 +10116,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 6
+  NodeID: 18
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -10244,7 +10135,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 7
+  NodeID: 17
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -10263,7 +10154,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 9
+  NodeID: 16
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -10282,7 +10173,140 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls: []
-  NodeID: 8
+  NodeID: 15
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 14
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 13
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 12
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 11
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 21
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 20
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1146950695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146950677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 19
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -12673,12 +12697,12 @@ GameObject:
   - component: {fileID: 1421641105}
   - component: {fileID: 1421641104}
   m_Layer: 0
-  m_Name: N_Bedroom
+  m_Name: START_N_Bedroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1421641103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13946,7 +13970,7 @@ GameObject:
   - component: {fileID: 1598670584}
   - component: {fileID: 1598670583}
   m_Layer: 0
-  m_Name: Neighbour_Conversation
+  m_Name: Iris_Conversation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13964,31 +13988,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 10
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":132.666656,"yPos":140.999969},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Who
-    are you?","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":414.000061,"yPos":141.666687},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Good
-    evening.","parentUIDs":[0],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":516.6667,"yPos":536.3334},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"Good
-    night, A.","parentUIDs":[8],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":269.3333,"yPos":20.6666718},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Good
-    evening, neighbour.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Neighbour","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":264.666656,"yPos":222},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    can call me \"A\". I live in that house beside you.","parentUIDs":[1,2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Neighbour","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":266.666656,"yPos":328.6667},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    quite chaotic around here recently. I advise you to be more cautious.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Neighbour","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":268.666656,"yPos":439.333374},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
-    all, I still have things to do.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Neishbour","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":270,"yPos":538.6667},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Good
-    night.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Neighbour","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 22
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":429.3333,"yPos":337.666718},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Fine,
+    what are you came for?","parentUIDs":[11],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":435.3333,"yPos":559},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"(Open
+    the door and accept the notes.)","parentUIDs":[14],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":436.6667,"yPos":885.6666},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Have
+    a good night.","parentUIDs":[21],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":428.666626,"yPos":219.666718},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi,
+    Iris. So you are Mr.A''s friend?","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":435.999939,"yPos":691.666748},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"(Iris
+    closed the door)","parentUIDs":[16],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":true,"xPos":191.333282,"yPos":168.666733},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi,
+    I am Iris. I live in Mr.A''s house.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":187.999969,"yPos":291.3334},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"Yes...well,
+    I hope we are? I''m the one who''s staying in his house. There''s also a person
+    named Kaehler living with us.","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":188,"yPos":414.666779},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Well,
+    Mr.A said \"Tell our neighbour to choose the people who want to enter his house
+    carefully. If necessary, remember to use his gun.\"","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":187.333344,"yPos":512.6666},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"He
+    also asked me to give you this thing.","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":188,"yPos":626.0001},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Thanks
+    for trusting me, I won''t enter your house.","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":187.3334,"yPos":750.6669},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Mr.A
+    is a very nice person, although he doesn''t like to talk much. ","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":187.999969,"yPos":854.666748},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    leaving now, have a good night.","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Iris","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1146950678}
-  - {fileID: 1146950682}
-  - {fileID: 1146950681}
-  - {fileID: 1146950680}
   - {fileID: 1146950684}
   - {fileID: 1146950683}
-  - {fileID: 1146950685}
-  - {fileID: 1146950686}
+  - {fileID: 1146950692}
+  - {fileID: 1146950691}
+  - {fileID: 1146950690}
+  - {fileID: 1146950689}
   - {fileID: 1146950688}
   - {fileID: 1146950687}
+  - {fileID: 1146950686}
+  - {fileID: 1146950685}
+  - {fileID: 1146950695}
+  - {fileID: 1146950694}
+  - {fileID: 1146950693}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -18458,4 +18492,3 @@ SceneRoots:
   - {fileID: 485212508}
   - {fileID: 1598670584}
   - {fileID: 148242957}
-  - {fileID: 189657308}
